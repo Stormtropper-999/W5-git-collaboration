@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
     <head>
-        <title>\</title>
+    <title>Code for Good — Home</title>
         <!-- Required meta tags -->
         <meta charset="utf-8" />
         <meta
@@ -21,51 +21,99 @@
 
     <body>
         <header>
-            <nav class="navbar navbar-expand-lg bg-body-tertiary">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#">Code for Good</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarText">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                    <a class="nav-link" href="healthcare.html">Healthcare</a>
-                    </li>
-                    <li class="nav-item">
-                    <a class="nav-link" href="green-computing.html">Green Computing</a>
-                    </li>
-                </ul>
-                <span class="navbar-text">
-                </span>
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <div class="container">
+                    <a class="navbar-brand" href="index.html">Code for Good</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="healthcare.html">Healthcare</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="green-computing.html">Green Computing</a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-            </div>
             </nav>
         </header>
+
         <main>
-            <div class="site-wrapper">
-
-            <div class="site-wrapper-inner">
-
-                <div class="inner cover">
-                    <h1 class="cover-heading">Cover your page.</h1>
-                    <p class="lead">Cover is a one-page template for building simple and beautiful home pages. Download, edit the text, and add your own fullscreen background photo to make it your own.</p>
-                    <p class="lead">
-                    <a href="#" class="btn btn-lg btn-default">Learn more</a>
-                    </p>
+            <section class="hero bg-dark text-white py-5">
+                <div class="container py-5">
+                    <div class="row align-items-center">
+                        <div class="col-lg-7">
+                            <h1 class="display-4 fw-bold">Build software that makes the world better</h1>
+                            <p class="lead mb-4">We connect developers with projects that improve healthcare, sustainability, and community services. Learn, contribute, and make impact.</p>
+                            <p>
+                                <a class="btn btn-primary btn-lg me-2" href="healthcare.html">Explore Healthcare</a>
+                                <a class="btn btn-outline-light btn-lg" href="green-computing.html">Green Computing</a>
+                            </p>
+                        </div>
+                        <div class="col-lg-5 d-none d-lg-block">
+                            <div class="card bg-light text-dark shadow">
+                                <div class="card-body p-4">
+                                    <h5 class="card-title">Get involved</h5>
+                                    <p class="card-text">Join a project, contribute code, or propose an idea. Open-source friendly and beginner welcoming.</p>
+                                    <a href="#features" class="btn btn-sm btn-primary">See features</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
+            </section>
 
+            <section id="features" class="features py-5">
+                <div class="container">
+                    <div class="row text-center g-4">
+                        <div class="col-md-4">
+                            <div class="card h-100 shadow-sm">
+                                <div class="card-body">
+                                    <h5 class="card-title">Healthcare</h5>
+                                    <p class="card-text">Projects focused on improving patient outcomes, telemedicine tools, and data-driven health solutions.</p>
+                                    <a class="btn btn-outline-primary" href="healthcare.html">Learn more</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card h-100 shadow-sm">
+                                <div class="card-body">
+                                    <h5 class="card-title">Green Computing</h5>
+                                    <p class="card-text">Energy-efficient programs, carbon footprint dashboards, and sustainability-focused tooling.</p>
+                                    <a class="btn btn-outline-primary" href="green-computing.html">Learn more</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card h-100 shadow-sm">
+                                <div class="card-body">
+                                    <h5 class="card-title">Community</h5>
+                                    <p class="card-text">Mentorship, documentation sprints, and inclusive events that lower the barrier to contribution.</p>
+                                    <a class="btn btn-outline-primary" href="#">Get involved</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
+            </section>
 
-            </div>
-
-            </div>
         </main>
-        <footer>
-            <!-- place footer here -->
+
+        <footer class="bg-dark text-white py-4">
+            <div class="container d-md-flex justify-content-between align-items-center">
+                <div class="mb-3 mb-md-0">© <span id="year">2025</span> Code for Good</div>
+                <div>
+                    <a href="index.html" class="text-white me-3">Home</a>
+                    <a href="healthcare.html" class="text-white me-3">Healthcare</a>
+                    <a href="green-computing.html" class="text-white">Green Computing</a>
+                </div>
+            </div>
         </footer>
         <!-- Bootstrap JavaScript Libraries -->
         <script
